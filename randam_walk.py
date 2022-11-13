@@ -1,5 +1,5 @@
 from random import choice
-class RandomWalk:
+class RandomWalk :
     def __init__(self,mum_points=5000):
         self.num_points=mum_points #初始化随机漫步的属性
         self.x_values=[0]   #所有的漫步起始于0
